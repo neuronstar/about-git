@@ -1,15 +1,17 @@
 # about-git
 
 
-Hello, I wrote an quick fact sheet for git users before. Here is the part that could be useful to us.
 
 ## What is special in git
 
 "stage" (git add ), "commit" (git commit ) and "push" (git push) are the three steps. "stage" is like a dry run and tells git what to commit.
-So here are the commands:
+Here are the commands:
+```
 git add .
 git commit -m "your message."
 git push
+```
+
 ## FAQ
 
 P: **I am too lasy to type in `git add .`.**
@@ -24,7 +26,7 @@ P: **I typed in the wrong commit message.**
 
 S: `git commit --amend` will allow you to change the commit message you typed in before.
 
-P: **I forgot to put add some files.**
+P: **I forgot to add some files.**
 
 S: Just add the file and use `git commit --amend`. This will allow you to replace the previous commit.
 
