@@ -14,57 +14,57 @@ git push
 
 ## FAQ
 
-P: **I am too lasy to type in `git add .`.**
+Q: **I am too lasy to type in `git add .`.**
 
-S: The magic potion is `git commit -a` which will do the staging and commit at the same time.
+A: The magic potion is `git commit -a` which will do the staging and commit at the same time.
 
-P: **What has been changed since last stage?**
+Q: **What has been changed since last stage?**
 
-S: `git diff` shows that.
+A: `git diff` shows that.
 
-P: **I typed in the wrong commit message.**
+Q: **I typed in the wrong commit message.**
 
-S: `git commit --amend` will allow you to change the commit message you typed in before.
+A: `git commit --amend` will allow you to change the commit message you typed in before.
 
-P: **I forgot to add some files.**
+Q: **I forgot to add some files.**
 
-S: Just add the file and use `git commit --amend`. This will allow you to replace the previous commit.
+A: Just add the file and use `git commit --amend`. This will allow you to replace the previous commit.
 
-P: **I accidentally added a file to staging.**
+Q: **I accidentally added a file to staging.**
 
-S: Should unstage the file. `git reset HEAD filename.md` will do.
+A: Should unstage the file. `git reset HEAD filename.md` will do.
 
-P: **I want to discard the changes I made since last commit.**
+Q: **I want to discard the changes I made since last commit.**
 
-S: **This can be dangerous.** `git checkout -- filename.md` can revert averything back to the last commit. But it discards all the changes and can not be recovered. DO NOT USE IT.
+A: **This can be dangerous.** `git checkout -- filename.md` can revert averything back to the last commit. But it discards all the changes and can not be recovered. DO NOT USE IT.
 
-P: **I need to check what has changed in every commits.**
+Q: **I need to check what has changed in every commits.**
 
-S: `git log --stat` will show the changed files.
+A: `git log --stat` will show the changed files.
 
-P: **I want to create a new branch based on the current branch.**
+Q: **I want to create a new branch based on the current branch.**
 
-S: `git checkout -b newbranchname` is for you.
+A: `git checkout -b newbranchname` is for you.
 
-P: **I hate a branch called "wth" and want to delete it.**
+Q: **I hate a branch called "wth" and want to delete it.**
 
-S: `git branch -d wth`.
+A: `git branch -d wth`.
 
-P: **I want to change the name of a branch "wth" to "wtf".**
+Q: **I want to change the name of a branch "wth" to "wtf".**
 
-S: `git branch -m wth wtf` or checkout to the branch "wth" and use `git branch -m wtf`.
+A: `git branch -m wth wtf` or checkout to the branch "wth" and use `git branch -m wtf`.
 
-P: **Merge "goaway" branch to master branch.**
+Q: **Merge "goaway" branch to master branch.**
 
-S: Checkout to master branch and `git merge goaway`.
+A: Checkout to master branch and `git merge goaway`.
 
-P: **Merge conflicts?**
+Q: **Merge conflicts?**
 
-S: Check the conflicts using `git status`. Open up the conflict file and you will see.
+A: Check the conflicts using `git status`. Open up the conflict file and you will see.
 
-P: **So hard to resolve the conflicts.**
+Q: **So hard to resolve the conflicts.**
 
-S: `git mergetool` will use a graphical tool.
+A: `git mergetool` will use a graphical tool.
 
 
 ## GitHub
