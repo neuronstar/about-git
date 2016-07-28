@@ -1,4 +1,4 @@
-# about-git
+# about-git and GitHub
 
 
 
@@ -65,3 +65,10 @@ S: Check the conflicts using `git status`. Open up the conflict file and you wil
 P: **So hard to resolve the conflicts.**
 
 S: `git mergetool` will use a graphical tool.
+
+
+## GitHub
+
+Q: Do I have to type in username and password everytime I clone or push?
+
+A: No. Use [cache for https](https://help.github.com/articles/caching-your-github-password-in-git/) or [ssh key for ssh](https://help.github.com/articles/set-up-git/#next-steps-authenticating-with-github-from-git)
