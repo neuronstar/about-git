@@ -16,7 +16,7 @@ git push
 
 Q: **I am too lasy to type in `git add .`.**
 
-A: The magic potion is `git commit -a` which will do the staging and commit at the same time.
+A: The magic potion is `git commit -a` which will do the staging and commit at the same time, for the files you have already staged.
 
 Q: **What has been changed since last stage?**
 
