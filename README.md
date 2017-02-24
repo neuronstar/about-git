@@ -70,6 +70,10 @@ Q: **How do I revert almost anything?**
 
 A: Read the article: [How to undo (almost) anything with Git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git).
 
+Q: **What if I am just too lazy to learn all these commands and hate command line tools so much.**
+
+A: Nice thinking. Get [GitKraken](https://www.gitkraken.com/) then.
+
 
 ## GitHub
 
